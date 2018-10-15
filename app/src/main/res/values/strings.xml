@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">softwaredesign</string>
+    <string name="imei">Your imei:</string>
+    <string name="get_imei">Get imei</string>
+    <string name="app_version">App version: </string>
 </resources>
