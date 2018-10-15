@@ -46,7 +46,6 @@
             android:layout_centerHorizontal="true"
             android:background="@color/purple"
             android:gravity="center"
-            android:textColor="@color/white"
             android:text="@string/get_imei" />
     </RelativeLayout>
 

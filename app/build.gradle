@@ -57,10 +57,11 @@ android {
     flavorDimensions "default"
     productFlavors {
         major {
-
+            manifestPlaceholders = [ROTATION: "portrait"]
         }
         develop {
-
+            manifestPlaceholders = [ROTATION: "unspecified"]
+            versionNameSuffix = "-dev"
         }
     }
 }

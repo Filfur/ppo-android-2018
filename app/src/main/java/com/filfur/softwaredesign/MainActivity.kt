@@ -35,8 +35,8 @@ class MainActivity : AppCompatActivity() {
         mainActivityLayout = findViewById(R.id.mainActivityLayout)
 
         try {
-            val packageInfo = packageManager.getPackageInfo(packageName, 0)
-            versionTextView.text = "${getString(R.string.app_version)} ${packageInfo.versionName}"
+            val packageInfo = BuildConfig.VERSION_NAME
+            versionTextView.text = "${getString(R.string.app_version)} ${packageInfo}"
         } catch (e: PackageManager.NameNotFoundException) { }
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_PHONE_STATE)
