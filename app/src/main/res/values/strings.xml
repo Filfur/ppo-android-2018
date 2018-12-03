@@ -3,4 +3,12 @@
     <string name="imei">Your imei:</string>
     <string name="get_imei">Get imei</string>
     <string name="app_version">App version: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_about">About</string>
 </resources>
